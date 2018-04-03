@@ -1,22 +1,20 @@
-//#include <iostream>
 #include "Animal.h"
 #include "Cat.h"
 #include "Dog.h"
 
 int main() {
-//    std::cout << "Hello, World!" << std::endl;
-    Dog myDog;
-    Cat myCat;
+    Dog myDog; //my dog object
+    Cat myCat; //my cat object
 
-    Animal *pMyPet = &myDog;
-    pMyPet->speak();
-    pMyPet->showHappiness();
+    Animal *pMyPet = &myDog; //ptr to Animal abstract class set to address of myDog
+    pMyPet->speak(); //myDog speaks
+    pMyPet->showHappiness(); //myDog shows how happy he is
 
-    pMyPet = &myCat;
-    pMyPet->speak();
-    pMyPet->showHappiness();
+    pMyPet = &myCat; //re seat the Animal ptr to myCat
+    pMyPet->speak(); //myCat speaks
+    pMyPet->showHappiness(); //myCat shows happiness
 
-    pMyPet = nullptr;
+    pMyPet = nullptr; //re seat the Animal ptr to the nullptr
 
     return 0;
 }

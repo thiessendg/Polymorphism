@@ -5,20 +5,14 @@
 #include "Dog.h"
 #include <iostream>
 
-Dog::Dog()
-{
-}
+Dog::Dog() = default;
 
-Dog::~Dog()
-{
-}
+Dog::~Dog() = default;
 
-void Dog::speak()
-{
+void Dog::speak() {
     std::cout << "Woof" << std::endl;
 }
 
-void Dog::showHappiness()
-{
+void Dog::showHappiness() {
     std::cout << "wagging tail" << std::endl;
 }

@@ -10,9 +10,9 @@
 class Dog : public Animal {
 public:
     Dog();
-    virtual ~Dog();
-    void speak();
-    void showHappiness();
+    ~Dog() final;
+    void speak() override;
+    void showHappiness() override;
 };
 
 #endif //POLYMORPHISM_DOG_H

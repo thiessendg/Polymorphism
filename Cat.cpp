@@ -5,21 +5,14 @@
 #include "Cat.h"
 #include <iostream>
 
+Cat::Cat() = default;
 
-Cat::Cat()
-{
-}
+Cat::~Cat() = default;
 
-Cat::~Cat()
-{
-}
-
-void Cat::speak()
-{
+void Cat::speak() {
     std::cout << "Meow" << std::endl;
 }
 
-void Cat::showHappiness()
-{
+void Cat::showHappiness() {
     std::cout << "puuuuurrrrrr" << std::endl;
 }

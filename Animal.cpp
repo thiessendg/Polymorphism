@@ -4,10 +4,6 @@
 
 #include "Animal.h"
 
-Animal::Animal()
-{
-}
+Animal::Animal() = default;
 
-Animal::~Animal()
-{
-}
+Animal::~Animal() = default;

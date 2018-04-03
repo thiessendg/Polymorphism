@@ -10,9 +10,9 @@
 class Cat : public Animal {
 public:
     Cat();
-    virtual ~Cat();
-    void speak();
-    void showHappiness();
+    ~Cat() final;
+    void speak() override;
+    void showHappiness() override;
 };
 
 #endif //POLYMORPHISM_CAT_H
