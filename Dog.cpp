@@ -5,9 +5,9 @@
 #include "Dog.h"
 #include <iostream>
 
-Dog::Dog() = default;
+//Dog::Dog() = default;
 
-Dog::~Dog() = default;
+//Dog::~Dog() = default;
 
 void Dog::speak() {
     std::cout << "Woof" << std::endl;

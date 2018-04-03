@@ -7,8 +7,8 @@
 
 class Animal {
 public:
-    Animal();
-    virtual ~Animal();
+    Animal() = default;
+    virtual ~Animal() = default;
     virtual void speak() = 0;
     virtual void showHappiness() = 0;
 };

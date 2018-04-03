@@ -4,6 +4,6 @@
 
 #include "Animal.h"
 
-Animal::Animal() = default;
+//Animal::Animal() = default;
 
-Animal::~Animal() = default;
+//Animal::~Animal() = default;

@@ -9,8 +9,8 @@
 
 class Cat : public Animal {
 public:
-    Cat();
-    ~Cat() final;
+    Cat() = default;
+    ~Cat() final = default;
     void speak() override;
     void showHappiness() override;
 };

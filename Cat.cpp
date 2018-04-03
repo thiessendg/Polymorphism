@@ -5,9 +5,9 @@
 #include "Cat.h"
 #include <iostream>
 
-Cat::Cat() = default;
+//Cat::Cat() = default;
 
-Cat::~Cat() = default;
+//Cat::~Cat() = default;
 
 void Cat::speak() {
     std::cout << "Meow" << std::endl;

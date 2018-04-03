@@ -9,8 +9,8 @@
 
 class Dog : public Animal {
 public:
-    Dog();
-    ~Dog() final;
+    Dog() = default;
+    ~Dog() final = default;
     void speak() override;
     void showHappiness() override;
 };
