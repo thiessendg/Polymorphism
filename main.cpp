@@ -14,7 +14,7 @@ int main() {
     pMyPet->speak(); //myCat speaks
     pMyPet->showHappiness(); //myCat shows happiness
 
-    pMyPet = nullptr; //re seat the Animal ptr to the nullptr
+    //pMyPet = nullptr; //re seat the Animal ptr to the nullptr
 
     return 0;
 }
